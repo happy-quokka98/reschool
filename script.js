@@ -78,7 +78,9 @@ const clicker = document.getElementById("clicker")
 const texter = document.getElementById("text")
 
 clicker.addEventListener("click", () => {
-    newElement(texter.value)
+    newElement(texter.value);
+
+    texter.value = ""
 })
 
 
