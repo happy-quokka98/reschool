@@ -20,13 +20,12 @@
 .tx h2 { font-size: 17px; font-weight: 600; margin-bottom: 14px; }
 .tx button { font-family: inherit; cursor: pointer; }
 
-/* ---------- main ---------- */
 .tx-main { padding: 32px; min-width: 0; }
 .tx-panel { background: #fff; border-radius: 22px; padding: 22px; }
 .tx-title-row { display: flex; justify-content: space-between; align-items: baseline; }
 .tx-link { border: 0; background: none; color: var(--ink); font-size: 14px; font-weight: 500; padding: 0; }
 
-/* ---------- top row ---------- */
+
 .tx-top { display: grid; grid-template-columns: 2fr 1fr; gap: 28px; }
 .tx-top > div { min-width: 0; }
 
@@ -52,7 +51,7 @@
 .tx-card--white .tx-card-bottom { border-top: 1px solid var(--line); }
 .tx-card--white .tx-card-circles { background: #dcdce6; }
 
-/* ---------- my expense ---------- */
+
 .tx-expense { height: 170px; display: flex; align-items: stretch; justify-content: space-between; gap: 10px; padding: 18px 22px 12px; }
 .tx-expense-col { flex: 1; display: flex; flex-direction: column; align-items: center; min-width: 0; }
 .tx-expense-col small { padding-top: 8px; font-size: 11px; color: var(--muted); }
@@ -65,7 +64,7 @@
   font-size: 12px; font-weight: 600; color: var(--ink); white-space: nowrap;
 }
 
-/* ---------- recent transactions ---------- */
+
 .tx-recent { margin-top: 24px; }
 .tx-tabs { display: flex; gap: 40px; border-bottom: 1px solid #ebeef2; margin-bottom: 16px; }
 .tx-tab {
@@ -92,7 +91,7 @@
 }
 .tx-download:hover { background: var(--blue); color: #fff; }
 
-/* ---------- pagination ---------- */
+
 .tx-pager { display: flex; justify-content: flex-end; align-items: center; gap: 8px; margin-top: 22px; }
 .tx-pager button {
   display: inline-flex; align-items: center; gap: 4px; min-width: 32px; height: 34px;
@@ -102,7 +101,7 @@
 .tx-pager button:disabled { opacity: 0.4; cursor: default; }
 .tx-pager button.is-active { background: var(--blue); color: #fff; justify-content: center; }
 
-/* ---------- focus + responsive ---------- */
+
 .tx button:focus-visible, .tx input:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
 
 @media (max-width: 1100px) {

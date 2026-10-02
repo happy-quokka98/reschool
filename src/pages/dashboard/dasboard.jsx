@@ -1,8 +1,7 @@
-// npm i lucide-react
 import { Send, ChevronRight, Cpu, Wallet } from "lucide-react";
-import "./Dashboard.css";
+import "./dashboard.css";
 
-/* ---------- static data ---------- */
+
 const RECENT = [
   { title: "Deposit from my Card", date: "28 January 2021", amount: "-$850", color: "#ffe0eb", icon: Wallet },
   { title: "Deposit Paypal", date: "25 January 2021", amount: "+$2,500", color: "#e7edff", icon: Wallet },
@@ -35,11 +34,7 @@ const PEOPLE = [
 const BALANCE = [130, 330, 250, 170, 480, 780, 330, 200, 620, 340, 300, 660, 600];
 const MONTHS = ["Jul", "Aug", "Sep", "Oct", "Nov", "Dec", "Jan"];
 
-/* ---------- small helpers ---------- */
-const polar = (cx, cy, r, deg) => {
-  const a = (deg * Math.PI) / 180;
-  return [cx + r * Math.cos(a), cy + r * Math.sin(a)];
-};
+
 
 function PieChart() {
   const cx = 110, cy = 110, r = 88;

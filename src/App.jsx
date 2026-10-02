@@ -1,7 +1,7 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
-import Dashboard from "./Dashboard";
-import Transactions from "./Transactions";
+import Dashboard from "./pages/dashboard/dasboard";
+import Transactions from "./pages/transaction/transaction";
 
 function App() {
   return (

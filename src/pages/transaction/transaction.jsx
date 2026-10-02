@@ -1,7 +1,7 @@
 // npm i lucide-react
 import { useState } from "react";
 import { Cpu, ArrowUp, ArrowDown, ChevronLeft, ChevronRight } from "lucide-react";
-import "./Transactions.css";
+import "./transactions.css";
 
 /* ---------- static data ---------- */
 const EXPENSE_BARS = [
