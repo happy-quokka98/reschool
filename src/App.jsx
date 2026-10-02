@@ -1,14 +1,14 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import Dashboard from "./pages/dashboard/dasboard";
-import Transactions from "./pages/transaction/transaction";
+import Transaction from "./pages/transaction/transaction";
 
 function App() {
   return (
     <>
       <Routes>
         <Route path="/" element={<Dashboard />} />
-        <Route path="/transactions" element={<Transactions />} />
+        <Route path="/transactions" element={<Transaction />} />
         <Route path="/accounts" element={<></>} />
         <Route path="/investments" element={<></>} />
         <Route path="/credit-cards" element={<></>} />
