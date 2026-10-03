@@ -9,14 +9,14 @@ function App() {
       <Routes>
         <Route path="/" element={<Dashboard />} />
         <Route path="/transactions" element={<Transaction />} />
-        <Route path="/accounts" element={<></>} />
+        {/* <Route path="/accounts" element={<></>} />
         <Route path="/investments" element={<></>} />
         <Route path="/credit-cards" element={<></>} />
         <Route path="/loans" element={<></>} />
         <Route path="/services" element={<></>} />
         <Route path="/my-privileges" element={<></>} />
-        <Route path="/setting" element={<></>} />
-      </Routes>
+        <Route path="/setting" element={<></>} /> */}
+      <Routes>
     </>
   );
 }
