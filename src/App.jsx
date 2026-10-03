@@ -6,6 +6,7 @@ import Transaction from "./pages/transaction/transaction";
 function App() {
   return (
     <>
+    <nav></nav>
       <Routes>
         <Route path="/" element={<Dashboard />} />
         <Route path="/transactions" element={<Transaction />} />
