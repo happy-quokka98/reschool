@@ -1,0 +1,83 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #343c6a;
+  margin-bottom: 18px;
+}
+
+.cardsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.card {
+  border-radius: 25px;
+  padding: 24px;
+  height: 210px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.blueCard { background: linear-gradient(135deg, #4c49ed, #0a06f4); color: #fff; }
+.darkCard { background: linear-gradient(135deg, #2d60ff, #133db5); color: #fff; }
+.whiteCard { background: #ffffff; border: 1px solid #e6eff5; color: #343c6a; }
+
+.cardHeader { display: flex; justify-content: space-between; align-items: flex-start; }
+.cardLabel { font-size: 11px; opacity: 0.8; text-transform: uppercase; }
+.cardDetails { display: flex; gap: 40px; }
+.cardDetails p { font-size: 15px; font-weight: 600; }
+.cardFooter { display: flex; justify-content: space-between; align-items: center; border-top: 1px solid rgba(255,255,255,0.15); padding-top: 16px; font-weight: 600; }
+.whiteCard .cardFooter { border-top-color: #e6eff5; }
+
+.gridTwo { display: grid; grid-template-columns: 1fr 2fr; gap: 25px; }
+.gridForm { display: grid; grid-template-columns: 2fr 1fr; gap: 25px; }
+
+.cardBox {
+  background: #ffffff;
+  border-radius: 25px;
+  padding: 25px;
+}
+
+.chartWrapper { height: 220px; }
+.list { display: flex; flex-direction: column; gap: 15px; }
+.listItem { display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid #f2f4f7; padding-bottom: 12px; }
+.listItem span { font-size: 12px; color: #718ebf; }
+.listItem p { font-size: 14px; font-weight: 600; color: #343c6a; }
+
+.iconWrapper {
+  width: 45px;
+  height: 45px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.linkBtn {
+  border: 1px solid #1814f3;
+  color: #1814f3;
+  background: transparent;
+  padding: 6px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.desc { color: #718ebf; font-size: 13px; margin-bottom: 20px; line-height: 1.5; }
+.form { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.inputGroup { display: flex; flex-direction: column; gap: 8px; }
+.inputGroup label { font-size: 14px; color: #232323; }
+.inputGroup input, .inputGroup select { padding: 12px; border: 1px solid #dfeaf2; border-radius: 12px; outline: none; }
+.submitBtn { grid-column: span 2; background: #1814f3; color: white; border: none; padding: 12px 30px; border-radius: 12px; cursor: pointer; width: fit-content; }
+
+.settingsList { display: flex; flex-direction: column; gap: 20px; }
+.settingItem { display: flex; align-items: center; gap: 15px; }
+.settingItem h4 { font-size: 14px; color: #343c6a; }
+.settingItem p { font-size: 12px; color: #718ebf; }
