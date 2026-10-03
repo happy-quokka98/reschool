@@ -16,7 +16,7 @@ function App() {
         <Route path="/services" element={<></>} />
         <Route path="/my-privileges" element={<></>} />
         <Route path="/setting" element={<></>} /> */}
-      <Routes>
+      </Routes>
     </>
   );
 }
